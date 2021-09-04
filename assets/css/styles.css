@@ -436,6 +436,17 @@ footer {
     padding: 15px;
 }
 
+.destination {
+    padding: 15px;
+}
+
+.destination li p {
+    background-color: #41445D;
+    color:  #FFF9EB;
+    border-radius: 15px;
+    padding: 15px;
+}
+
 .digital h1 {
     font-size: 2.3em;
 }
@@ -728,6 +739,7 @@ footer {
     .digital,
     .testimonials,
     .experience,
+	.destination,
     .chat {
         margin-left: 212px;
         margin-right: 212px;
@@ -999,6 +1011,11 @@ footer {
     }
 
     .business li p {
+        background-color: #FFF9EB;
+        color: #41445D;
+    }
+	
+    .destination li p {
         background-color: #FFF9EB;
         color: #41445D;
     }
