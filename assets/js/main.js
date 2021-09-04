@@ -63,7 +63,6 @@ function myFunction() {
 toggle between hiding and showing the dropdown content */
 function aboutFunction() {
     document.getElementById("myAbout").classList.toggle("showabout");
-	document.getElementById("myAbout").classList.toggle("none");
   }
   
   // Close the dropdown menu if the user clicks outside of it
